@@ -1,0 +1,38 @@
+﻿@page
+@model ResilientApp.Pages.ForecastsModel
+@{
+    ViewData["Title"] = "Forecasts";
+}
+
+<h2>Forecasts</h2>
+@if (Model.Forecasts == null)
+{
+<p><em>Loading...</em></p>
+}
+else
+{
+<table class='table'>
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Temp. (C)</th>
+            <th>Temp. (F)</th>
+            <th>Summary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var forecast in Model.Forecasts)
+        {
+        <tr>
+            <td>@forecast.Date.ToShortDateString()</td>
+            <td>@forecast.TemperatureC</td>
+            <td>@forecast.TemperatureF</td>
+            <td>@forecast.Summary</td>
+            <td>@forecast.Source</td>
+        </tr>
+        }
+    </tbody>
+</table>
+}
+
+

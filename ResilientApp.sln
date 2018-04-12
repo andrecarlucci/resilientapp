@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27520.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilientApp", "ResilientApp\ResilientApp.csproj", "{DD36F349-1F93-46CA-AE32-1A5E85CDA841}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheatherService", "WheatherService\WheatherService.csproj", "{130D8B80-C592-4B67-A106-AFAD8F72C1F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DD36F349-1F93-46CA-AE32-1A5E85CDA841}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD36F349-1F93-46CA-AE32-1A5E85CDA841}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD36F349-1F93-46CA-AE32-1A5E85CDA841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{130D8B80-C592-4B67-A106-AFAD8F72C1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130D8B80-C592-4B67-A106-AFAD8F72C1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130D8B80-C592-4B67-A106-AFAD8F72C1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130D8B80-C592-4B67-A106-AFAD8F72C1F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
